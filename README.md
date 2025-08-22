@@ -27,19 +27,27 @@ You can run the files directly with Node.js:
 node fibonacci.js
 node mergeSort.js
 ```
-If you want automatic restarts on file changes, use **nodemon**:
+For automatic restarts on file changes, use **nodemon**:
 ```bash
 nodemon fibonacci.js
 ```
 Stop nodemon anytime with ctrl + C
 
 ## Algorithms Implemented
-**Fibonacci (fibonacci.js)**
+**Fibonacci (`fibonacci.js`)**
 - fibs(n): Iterative method to compute the first `n` Fibonacci numbers.
 - fibsRec(n): Recursive method to compute the first `n` Fibonacci numbers.
 Example:
 ```bash
 console.log(fibsRec(8)); // [0, 1, 1, 2, 3, 5, 8, 13]
+```
+
+**Merge Sort (`mergeSort.js`)**
+- `mergeSort(arr)`: Recursively sorts an array using the divide-and-conquer approach.
+
+Example:
+```bash
+console.log(mergeSort([38, 27, 43, 3, 9])); // [3, 9, 27, 38, 43]
 ```
 
 ## Key Learning Points
